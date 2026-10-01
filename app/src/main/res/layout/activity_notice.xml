@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="College Notices"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <EditText
+            android:id="@+id/noticeTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Notice Title" />
+
+        <EditText
+            android:id="@+id/noticeDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            android:minLines="4"
+            android:gravity="top"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/noticeDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date Posted"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/addNoticeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Notice"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/viewNoticeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Notice"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/deleteNoticeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Notice"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/noticeOutput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No notice added yet."
+            android:textSize="18sp"
+            android:layout_marginTop="24dp" />
+
+    </LinearLayout>
+
+</ScrollView>
