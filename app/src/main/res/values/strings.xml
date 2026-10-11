@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Collegio</string>
+    <string name="my_tasks">MY TASKS</string>
+    <string name="stay_on_top_of_your_day">Stay on top of your day.</string>
+    <string name="create_a_task">Create a task</string>
+    <string name="what_do_you_need_to_do">What do you need to do?</string>
+    <string name="your_task_list">Your task list</string>
+    <string name="your_tasks_all_in_one_place">Your tasks, all in one place.</string>
+    <string name="add_task">＋ Add Task</string>
+    <string name="choose_due_date">Choose due date</string>
 </resources>
